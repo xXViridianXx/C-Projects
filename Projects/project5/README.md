@@ -12,10 +12,10 @@ The code should output the original message typed into the file or terminal
 ## Error Handling/Errors:
 If the user inputs a "NULL" file to decrypt, then the program spits out an error. This also goes for keygen amd encrypt. The usage function of decrypt tells the user to only decrypt something that is encrypted.
 
-## Scan-build
+## Scan-build:
 running "scan-build make" gives me : "relocation R_AARCH64_ADR_PREL_PG_HI21 against symbol `stderr@@GLIBC_2.17' which may bind externally can not be used when making a shared object; recompile with -fPIC" -- no idea what that means so...
 
-## Valgrind
+## Valgrind:
 Gives no Leaks
 
 
