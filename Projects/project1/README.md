@@ -1,4 +1,4 @@
-# Assignment 1 - Collatz
+# Project 1 - Collatz
 
 #Summary:
 This program uses the collatz sequence formula in order to plot features such as Collatz sequence lengths, or number of new lines, the max Collatz value in a sequence, and a frequencey spectrum of the colaltz lengths.
