@@ -16,6 +16,6 @@ If the user inputs a "NULL" file to decode, then the program spits out an error.
 running "scan-build make" gives me : warning: Access to field 'left' results in a dereference of a null pointer (loaded from variable 'node'). I guess by accessing the left node, I am derefrencing the original node?
 
 ## Valgrind:
-Gives no Leaks...But fails to take in large files, such as bible.txt, at the moment...
+Gives no Leaks...But fails to take in very large files
 
 
